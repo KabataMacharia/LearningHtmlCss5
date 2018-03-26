@@ -2,8 +2,34 @@ ul {
 	list-style-type: none;
 	padding:0px;
 	margin:0px;
-	
+
 }
+p{
+	line-height:18px;
+	margin-top:10px;
+}
+.body-holder,.sections-holder{
+	width:1000px;
+	margin:0 auto;
+}
+.sections-holder{
+	padding-top:20px;
+}
+.left-content{
+	width:700px;
+	float:left;
+}
+.right-content{
+	width:300px;
+	float:left;
+}
+.remove-float{
+	display: block;
+    content: "";
+    clear: both;
+}
+
+
 li a {
 display: block;
 text-decoration: none;
@@ -16,17 +42,13 @@ text-transform: uppercase;
 height: 10px;
 
 }
-#menubar 
+#menubar
 {
-	
+
 width:1000px;
 height: 60px;
-background: transparent
-url(mn.png)
-repeat;
-float:left;
-margin-left: 175px;
-margin-right: auto;
+background: transparent url(mn.png) repeat;
+
 }
 #menu
 {
@@ -34,24 +56,27 @@ margin-left: auto;
 margin-right: auto;
 }
 li {
-	display: inline;
+	display: inline-block;
 	text-align: center;
 	text-color:white;
-	margin: 10px 0 0 10px;
-	 padding: 9px 26px 6px 26px;
+
 }
 
 a, a:hover {
-	
+
 	    color: #7E2451;
 		text-decoration: underline;
 }
+h3{
 
-#h3
-{
-	text-decoration: none;
+}
+#myId{
+
+}
+.myClass{
 	
 }
+
 #sidebar
 {
 	float: right;
@@ -61,9 +86,8 @@ a, a:hover {
 }
 html,body {
 	background-color: #333;
-	
-	text-decoration: none;
-	background: #F0EFE2 
+
+	background: #F0EFE2
 	url(bk.png)
 	repeat;
 	font:normal.92em 'trebuchet ms', arial, sans-serif;
@@ -72,36 +96,36 @@ html,body {
 body {
 	display: block;
 	color: #000;
-	
+
 }
 *
 {
 margin: 0px;
 padding: 0px;
 }
-#header 
+#header
 {
 	width: 1000px;
-    position: relative;
+
     height: 148px;
     border-bottom: 2px solid #822956;
     padding: 22px 0 0 0;
     color: #000;
     letter-spacing: -1px;
     text-decoration: none;
-	position:relative;
 	font-size: 100%;
-    padding: 4px 0 0 0;
-	margin-left: 175px;
-    margin-right: auto;
-	
+  padding: 4px 0 0 0;
 }
 
 #header,#menubar #menu{
-	
+
 }
 #content
 {
 	margin-left: auto;
 	margin-right: auto;
+}
+.footer{
+	margin-top:20px;
+	border-top: 2px solid #822956;
 }
